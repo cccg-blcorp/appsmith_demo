@@ -418,8 +418,13 @@
                     {
                       "resetFormOnClick": true,
                       "widgetName": "FormButton1",
-                      "onClick": "{{updateRecipe.run(() => dishRecipeList.run(), () => showAlert('Error while updating resource!','error'))}}",
+                      "onClick": "{{updateRecipe.run(() => dishRecipeList.run(() => FilePicker1.files = null), () => showAlert('Error while updating resource!','error'))}}",
                       "buttonColor": "#03B365",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "FormButton",
                       "iconSVG": "/static/media/icon.c8f649ed.svg",
                       "topRow": 59,
