@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "pokemon_api",
+    "name": "users",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "https://pokeapi.co"
+        "url": "https://mock-api.appsmith.com"
       },
       "invalids": [],
       "messages": [],
@@ -16,23 +16,14 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "pokemon",
+    "pageId": "Users",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/api/v2/pokemon/",
+      "path": "/users",
       "headers": [],
       "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "offset",
-          "value": "0"
-        },
-        {
-          "key": "limit",
-          "value": "50"
-        }
-      ],
+      "queryParameters": [],
       "body": "",
       "httpMethod": "GET",
       "pluginSpecifiedTemplates": [
@@ -41,7 +32,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -52,7 +43,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "pokemon_pokemon_api",
+  "id": "Users_users",
   "deleted": false,
-  "gitSyncId": "620bc6348c42256f461a564d_62140322610c7c4cd5627d0f"
+  "gitSyncId": "620bc6348c42256f461a564d_62140613610c7c4cd5627d11"
 }

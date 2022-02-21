@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "pokemon",
-    "slug": "pokemon",
+    "name": "Users",
+    "slug": "users",
     "layouts": [
       {
         "viewMode": false,
@@ -362,7 +362,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "pokemon_users",
+              "id": "Users_users",
               "name": "users",
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -378,7 +378,7 @@
           "Text1"
         ],
         "validOnPageLoadActions": true,
-        "id": "pokemon",
+        "id": "Users",
         "deleted": false,
         "policies": [],
         "userPermissions": []
