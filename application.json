@@ -1,0 +1,23 @@
+{
+  "isPublic": false,
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#D9E7FF",
+  "icon": "steam-bowl",
+  "slug": "demo",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "evaluationVersion": 2,
+  "publishedModeThemeId": "620586ef9fbe7262b8db7328",
+  "editModeThemeId": "620586ef9fbe7262b8db7328",
+  "createdAt": {
+    "seconds": 1644938804,
+    "nanos": 689000000
+  },
+  "deleted": false
+}
