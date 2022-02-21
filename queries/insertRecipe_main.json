@@ -17,7 +17,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO dishRecipe\n  (name, cookingTime, recipe, picture, creationDate, lastModificationDate, removed)\nVALUES\n  (\n    {{ inputName.text }},\n\t\t{{ InputTime.text }},\n    {{ inputRecipe.text }},\n   \t'https://assets.appsmith.com/widgets/default.png',\n\t\tGETDATE(),\n\t\tGETDATE(),\n\t\t0\n  );\n"
+      "body": "INSERT INTO dishRecipe\n  (name, cookingTime, recipe, picture, creationDate, lastModificationDate, removed)\nVALUES\n  (\n    {{ inputNewNameRecipe.text }},\n\t\t{{ inputNewCookingTime.text }},\n    {{ inputNewRecipe.text }},\n   \t'https://assets.appsmith.com/widgets/default.png',\n\t\tGETDATE(),\n\t\tGETDATE(),\n\t\t0\n  );\n"
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -29,9 +29,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "InputTime.text",
-      "inputName.text",
-      "inputRecipe.text"
+      "inputNewCookingTime.text",
+      "inputNewNameRecipe.text",
+      "inputNewRecipe.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
