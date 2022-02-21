@@ -488,7 +488,7 @@
               "isLoading": false
             },
             {
-              "boxShadow": "NONE",
+              "boxShadow": "VARIANT5",
               "widgetName": "Container1",
               "borderColor": "transparent",
               "isCanvas": true,
@@ -501,7 +501,9 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
               "leftColumn": 1,
+              "dynamicBindingPathList": [],
               "children": [
                 {
                   "widgetName": "Canvas3",
@@ -846,6 +848,37 @@
                       "isLoading": false,
                       "borderRadius": "CIRCLE",
                       "buttonVariant": "PRIMARY"
+                    },
+                    {
+                      "widgetName": "Text6",
+                      "displayName": "Text",
+                      "iconSVG": "/static/media/icon.97c59b52.svg",
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 9.216796875,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [],
+                      "shouldTruncate": false,
+                      "truncateButtonColor": "#FFC13D",
+                      "text": "Recipe List",
+                      "key": "8s159jpnxk",
+                      "rightColumn": 16,
+                      "textAlign": "LEFT",
+                      "widgetId": "sew31ptmx3",
+                      "isVisible": true,
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "shouldScroll": false,
+                      "version": 1,
+                      "parentId": "642aly09ko",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "fontSize": "HEADING2"
                     }
                   ],
                   "key": "r22o21496q"
@@ -1449,6 +1482,7 @@
           "Text3",
           "Text4",
           "Text5",
+          "Text6",
           "inputName",
           "inputNewCookingTime",
           "inputNewNameRecipe",
